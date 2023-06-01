@@ -5,7 +5,7 @@ metadata:
   name: first-vela-app
 spec:
   components:
-    - name: express-server
+    - name: test-app
       type: webservice
       properties:
         image: axonhub.azurecr.us/oamdev/hello-world:v2
