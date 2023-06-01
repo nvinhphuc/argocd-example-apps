@@ -1,0 +1,12 @@
+# vela-app.yaml
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: first-vela-app
+spec:
+  components:
+    - name: express-server
+      type: webservice
+      properties:
+        image: axonhub.azurecr.us/oamdev/hello-world:v2
+        port: 8000
