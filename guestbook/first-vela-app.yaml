@@ -8,5 +8,5 @@ spec:
     - name: test-app
       type: webservice
       properties:
-        image: axonhub.azurecr.us/oamdev/hello-world:v2
+        image: oamdev/hello-world:v2
         port: 8000
